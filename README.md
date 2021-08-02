@@ -38,9 +38,21 @@ https://cody-ims.autoever.com/projects/SMARTWP/issues/SMARTWP-180?filter=addedre
 
       2) subscribe를 이용해 render 호출 , 화면변경)
 
-- 리덕스가 좋은 이유
+- **리덕스가 좋은 이유**
 
-  - 
+  - (중앙집중적인 데이터 관리) 중앙에서 상태관리를 할 수 있으므로, 상태관리에 대한 로직이 줄어듬 / 
+    - 2개의 로직 - 상태 바꼈을때 알려줄 수 있는 로직, 상태변화에 따라 자기 자신을 변경시키는 로직
+  - 상태 버전 관리 - 기록 저장, time traveling 
+
+
+
+- CRUD
+  - 부품화
+  - store & state
+  - dispatch, action
+  - subscribe
+  - 글생성 구현
+  - 글 삭제 구형ㄴ
 
 
 
