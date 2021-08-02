@@ -52,7 +52,9 @@ https://cody-ims.autoever.com/projects/SMARTWP/issues/SMARTWP-180?filter=addedre
   - dispatch, action
   - subscribe
   - 글생성 구현
-  - 글 삭제 구형ㄴ
+  - 글 삭제 구현
+
+![](D:\coding\Study\React_study\Redux\redux.jpg)
 
 
 
