@@ -8,3 +8,9 @@ React Study - 이것저것
 
 2) 생활코딩 - 리액트
 https://opentutorials.org/module/4058/24666
+
+
+3) 생활코딩 - Redux (상태관리)
+https://cody-ims.autoever.com/projects/SMARTWP/issues/SMARTWP-180?filter=addedrecently
+
+5) 
