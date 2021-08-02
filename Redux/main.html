@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.1.0/redux.min.js" integrity="sha512-F21iSaHGX/3NFz5SuwoH6pGhTPxtoJoWWULqQVPQPtLm7nbK5r8vRSSSYy3Aj+H39cVrVm4+3ikGoVD1AjE0sQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </head>
     <body>
         <div id="subject"></div>
         <div id="toc"></div>
@@ -16,11 +19,21 @@ function subject(){
 }
 
 function TOC() {
+    var state = store.getState();
+    console.log(state);
+    var i = 0;
+    var liTags = '';
+    while(i < state.contents.length){
+        liTags = liTags + `
+            <li>
+                <a href="${state.contents[i].id}">${state.contents[i].title}</a>
+            </li>`;
+        i = i + 1;
+    }
     document.querySelector('#toc').innerHTML=`
     <nav>
         <ol>
-            <li><a href="1.html">html</a></li>
-            <li><a href="2.html">css</a></li>
+            ${liTags}
         </ol>
     </nav>
     `;
@@ -43,6 +56,20 @@ function article(){
     `;
 
 }
+function reducer(state, action) {
+    if(state === undefined){
+        //최초 초기값
+        return {
+            contents: [
+                {id:1, title:'html', desc:'HTML is ...'},
+                {id:2, title:'css', desc:'css is ...'},
+            ]
+        }
+    }
+    return;
+}
+
+var store = Redux.createStore(reducer);
 subject();
 TOC();
 control();
