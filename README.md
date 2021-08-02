@@ -54,20 +54,11 @@ https://cody-ims.autoever.com/projects/SMARTWP/issues/SMARTWP-180?filter=addedre
   - 글생성 구현
   - 글 삭제 구현
 
-
-
-![redux loadmap](D:\coding\Study\React_study\Redux\redux loadmap.png)
-
+<img src="https://github.com/ncavchl/React_study/blob/main/Redux/redux%20loadmap.png?raw=true" alt="" title="">
 
 
 4) 
 
-
-
-
-
-
-https://github.com/ncavchl/React_study/blob/main/Redux/redux%20loadmap.png?raw=true
 
 
 
