@@ -56,11 +56,10 @@ https://cody-ims.autoever.com/projects/SMARTWP/issues/SMARTWP-180?filter=addedre
 
 <img src="https://github.com/ncavchl/React_study/blob/main/Redux/redux%20loadmap.png?raw=true" alt="" title="">
 
+4)  생활코딩 - React Redux<br>
+https://opentutorials.org/module/4518
 
-4) 
-
-
-
+- U
 
 
 
