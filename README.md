@@ -59,10 +59,79 @@ https://cody-ims.autoever.com/projects/SMARTWP/issues/SMARTWP-180?filter=addedre
 4)  생활코딩 - React Redux<br>
 https://opentutorials.org/module/4518
 
-- U
+- Redux 미 도입시
+
+- ```react
+  // 상위로 보내줌
+  export default class AddNumber extends Component {
+    state = { size: 5 };
+    render() {
+      return (
+        <div>
+          <h1>Display Number </h1>
+          <input
+            type="button"
+            value="+"
+            onClick={function () {
+              this.props.onClick(this.state.size); // 여기서 위 컴포넌트로 보냄
+            }.bind(this)}
+          ></input>
+          <input
+            type="text"
+            value={this.state.size}
+            onChange={function (e) {
+              this.setState({ size: Number(e.target.value) });
+            }.bind(this)}
+          ></input>
+        </div>
+      );
+    }
+  }
+  ```
+
+  
 
 
+- ```react
+  //AddNumber 에서 온 size 값을 받고, App 상위로 보냄 
+  export default class AddNumberRoot extends Component {
+    render() {
+      return (
+        <div>
+          <h1>Add Number Root</h1>
+          <AddNumber
+            onClick={function (size) {
+              this.props.onClick(size); //here
+            }.bind(this)}
+          ></AddNumber>
+        </div>
+      );
+    }
+  }
+  
+  ```
 
+- ```react
+  // 받아서 처리 
+  class App extends Component {
+    state = { number: 0 };
+    render() {
+      return (
+        <div className="App">
+          <h1>Root</h1>
+          <AddNumberRoot
+            onClick={function (size) {
+              this.setState({ number: this.state.number + size }); // here
+            }.bind(this)}
+          ></AddNumberRoot>
+          <DisplayNumberRoot number={this.state.number}></DisplayNumberRoot>
+        </div>
+      );
+    }
+  }
+  ```
+
+- 
 
 
 
