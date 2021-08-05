@@ -131,6 +131,8 @@ https://opentutorials.org/module/4518
   }
   ```
 
+  
+
   ####  Redux 종속성 제거
 
 - presentation Component - 리덕스를 모르는 / 재사용 가능한 컴포넌트
