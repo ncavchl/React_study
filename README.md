@@ -139,7 +139,94 @@ https://opentutorials.org/module/4518
 
 - Container Component - store와 관련된 실질적 작업을 처리하는 컴포넌트
 
+- store.js
 
+  ```react
+  import { createStore } from "redux";
+  
+  // reducer 역할
+  export default createStore(function (state, action) {
+    if (state === undefined) {
+      return { number: 0 };
+    }
+    if (action.type === "INCREMENT") {
+      // ... 복제한다는 뜻
+      return { ...state, number: state.number + action.size };
+    }
+    return state;
+  }, window.__REDUX_DEVTOOLS_EXTENSION__ &&
+    window.__REDUX_DEVTOOLS_EXTENSION__());
+  ```
+
+- Addnumber.js - presentation component
+
+  ```react
+  import React, { Component, compconent } from "react";
+  
+  export default class AddNumber extends Component {
+    state = { size: 5 };
+    render() {
+      return (
+        <div>
+          <h1>Display Number </h1>
+          <input
+            type="button"
+            value="+"
+            onClick={function () {
+              this.props.onClick(this.state.size);
+            }.bind(this)}
+          ></input>
+          <input
+            type="text"
+            value={this.state.size}
+            onChange={function (e) {
+              this.setState({ size: Number(e.target.value) });
+            }.bind(this)}
+          ></input>
+        </div>
+      );
+    }
+  }
+  ```
+
+- Addnumber.jsx - Container component
+
+  ```react
+  import AddNumber from "../component/AddNumber";
+  import store from "../store";
+  import React, { Component } from "react";
+  export default class extends Component {
+    render() {
+      return (
+        <AddNumber
+          onClick={function (size) {
+            store.dispatch({ type: "INCREMENT", size: size });
+          }}
+        ></AddNumber>
+      );
+    }
+  }
+  ```
+
+- AddnumberRoot.js 
+
+  ```react
+  import React, { Component, compconent } from "react";
+  import AddNumber from "../containers/AddNumber";
+  
+  export default class AddNumberRoot extends Component {
+    render() {
+      return (
+        <div>
+          <h1>Add Number Root</h1>
+          <AddNumber></AddNumber>
+        </div>
+      );
+    }
+  }
+  ```
+
+  
 
 
 
