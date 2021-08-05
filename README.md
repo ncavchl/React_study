@@ -131,7 +131,15 @@ https://opentutorials.org/module/4518
   }
   ```
 
-- 
+  ####  Redux 종속성 제거
+
+- presentation Component - 리덕스를 모르는 / 재사용 가능한 컴포넌트
+
+- Container Component - store와 관련된 실질적 작업을 처리하는 컴포넌트
+
+
+
+
 
 
 
