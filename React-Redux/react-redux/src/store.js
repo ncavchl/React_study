@@ -7,6 +7,7 @@ export default createStore(function (state, action) {
   }
   if (action.type === "INCREMENT") {
     // ... 복제한다는 뜻
+    console.log("store??");
     return { ...state, number: state.number + action.size };
   }
   return state;

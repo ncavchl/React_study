@@ -226,11 +226,50 @@ https://opentutorials.org/module/4518
   }
   ```
 
+
+
+#### React-redux
+
+- index.js -> Provider로 감싸 한번에 store를 바라보게 함
+
+- ```react
+  import { Provider } from "react-redux";
+  import store from "./store";
   
+  ReactDOM.render(
+    <Provider store={store}>
+      <React.StrictMode>
+        <App />
+      </React.StrictMode>
+    </Provider>,
+    document.getElementById("root")
+  );
+  
+  ```
 
+- import { connect } from "react-redux"; 
 
+- **connect( A , B ) (Returncomponent);** 
 
+  - A,B 인자로 넘김
 
+  - ```react
+    function mapReduxStateToReactProps(state) {
+      return {
+        number: state.number,
+      };
+    }
+    function mapReduxDispatchToReactProps() {
+      return {};
+    }
+    
+    export default connect(
+      mapReduxStateToReactProps,
+      mapReduxDispatchToReactProps
+    )(DisplayNumber);
+    ```
+
+  - 
 
 
 
