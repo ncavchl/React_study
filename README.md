@@ -6,8 +6,12 @@ React Study - 이것저것
 - https://nomadcoders.co/react-fundamentals/lectures/1540
 
 
+<br><br>
+
 2) 생활코딩 - 리액트
 https://opentutorials.org/module/4058/24666
+
+<br><br>
 
 3) 생활코딩 - Redux (상태관리)<br>
 https://cody-ims.autoever.com/projects/SMARTWP/issues/SMARTWP-180?filter=addedrecently
@@ -55,6 +59,8 @@ https://cody-ims.autoever.com/projects/SMARTWP/issues/SMARTWP-180?filter=addedre
   - 글 삭제 구현
 
 <img src="https://github.com/ncavchl/React_study/blob/main/Redux/redux%20loadmap.png?raw=true" alt="" title="">
+
+<br><br>
 
 4)  생활코딩 - React Redux<br>
 https://opentutorials.org/module/4518
