@@ -1,6 +1,14 @@
 # React_study
 React Study - 이것저것
 
+#### 1) 노마드코더 - 영화 웹 애플리케이션  https://nomadcoders.co/react-fundamentals/lectures/1540 
+#### 2) 생활코딩 - 리액트 https://opentutorials.org/module/4058/24666
+#### 3) 생활코딩 - Redux (상태관리) https://cody-ims.autoever.com/projects/SMARTWP/issues/SMARTWP-180?filter=addedrecently
+#### 4) 기술블로그 - Redux-saga (상태관리 + middleware) https://uzihoon.com/post/181be130-63a7-11ea-a51b-d348fee141c4
+
+<br><Br>
+
+
 1) 노마드코더 - 영화 웹 애플리케이션 
 - git - https://github.com/ncavchl/React-express_inflearn
 - https://nomadcoders.co/react-fundamentals/lectures/1540
@@ -280,7 +288,8 @@ https://opentutorials.org/module/4518
 
 
 
-- 
+
+
 
 
 4) 기술블로그 - Redux-saga (상태관리 + middleware)<br>
