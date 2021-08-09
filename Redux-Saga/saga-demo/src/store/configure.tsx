@@ -3,9 +3,8 @@ import createSagaMiddleware from "redux-saga";
 import rootSaga from "./saga";
 import rootReducer from "./redux";
 
-//redux와 redux-saga 연결할 configure 함수
-
 declare global {
+  // tslint:disable-next-line: interface-name
   interface Window {
     __REDUX_DEVTOOLS_EXTENSION_COMPOSE__?: typeof compose;
   }
