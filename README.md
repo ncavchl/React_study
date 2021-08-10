@@ -299,3 +299,8 @@ https://uzihoon.com/post/181be130-63a7-11ea-a51b-d348fee141c4
 
 
 
++)
+> sidebar - depth 구조 구현을 위해 recursive 구현 방식 필요
+> breadcrumbs - path 경로 
+
+
