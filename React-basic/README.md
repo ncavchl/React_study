@@ -19,3 +19,14 @@
 - 자바스크립트 변환 도구
 
 - Babel은 ECMAScript 2015+ 코드를 이전 JavaScript 엔진에서 실행할 수 있는 이전 버전과 호환되는 JavaScript 버전으로 변환하는 데 주로 사용되는 무료 오픈 소스 JavaScript 트랜스컴파일러입니다
+
+
+
+
+
+### LifeCycle API
+
+- 나타날 때
+- 업데이트 될 때
+- 사라질 때
+
