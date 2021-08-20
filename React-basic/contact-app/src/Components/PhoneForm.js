@@ -7,7 +7,9 @@ class PhoneForm extends Component {
   };
 
   handleChange = (e) => {
-    this.setState({ [e.target.name]: e.target.value });
+    this.setState({
+      [e.target.name]: e.target.value,
+    });
   };
 
   handleSubmit = (e) => {
@@ -18,6 +20,7 @@ class PhoneForm extends Component {
       phone: "",
     });
   };
+
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
