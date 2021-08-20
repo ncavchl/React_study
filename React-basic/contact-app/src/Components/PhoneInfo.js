@@ -7,6 +7,13 @@ class PhoneInfo extends Component {
     phone: "",
   };
 
+  shouldComponentUpdate(nextProps, nextState) {
+    if (this.state !== nextState) {
+      return true;
+    }
+    return this.props.info !== nextProps.info;
+  }
+
   handleRemove = () => {
     const { info, onRemove } = this.props;
     console.log(info.id);
@@ -47,6 +54,7 @@ class PhoneInfo extends Component {
       margin: "8px",
     };
 
+    console.log(name);
     return (
       <div style={style}>
         {editing ? (
