@@ -42,8 +42,10 @@ class ClassComp extends React.Component {
 - function - useState
 
 ## Lifecycle API
-- class - componentWillMount 이런 기본 함수
-- function - useEffect / 여러개 설치 
+- class - componentWillMount 이런 기본 함수 (LifeCycle API)
+<img src="https://gseok.gitbooks.io/react/content/assets/react-life-cycle-2.png" alt="" title=""/>
+
+- function - useEffect, clean up, skipping effect / 여러개 설치 
 ``` react.js
 //side effect
   useEffect(function () {
