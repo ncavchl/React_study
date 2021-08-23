@@ -5,6 +5,9 @@ React Study - 이것저것
 #### 2) 생활코딩 - 리액트 https://opentutorials.org/module/4058/24666
 #### 3) 생활코딩 - Redux (상태관리) https://cody-ims.autoever.com/projects/SMARTWP/issues/SMARTWP-180?filter=addedrecently
 #### 4) 기술블로그 - Redux-saga (상태관리 + middleware) https://uzihoon.com/post/181be130-63a7-11ea-a51b-d348fee141c4
+#### 5) 기본 개념 - 인프런 강의 https://www.inflearn.com/course/react-velopert/dashboard
+#### 6) 함수형 개발방식 - 인프런 강의 https://www.inflearn.com/course/react-class-function-%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9#curriculum
+#### 7) 심화 게임 개발 - 인프런 강의 https://www.inflearn.com/course/web-game-react#curriculum
 
 <br><Br>
 
