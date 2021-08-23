@@ -10,7 +10,7 @@ https://www.inflearn.com/course/react-class-function-%EC%83%9D%ED%99%9C%EC%BD%94
 함수 스타일 에서도 
 
 - state
-- LifeCicle api 
+- Life cicle API
 
 사용 가능해짐.
 
