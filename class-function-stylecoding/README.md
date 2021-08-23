@@ -10,7 +10,7 @@ https://www.inflearn.com/course/react-class-function-%EC%83%9D%ED%99%9C%EC%BD%94
 함수 스타일 에서도 
 
 - state
-- LifeCicle api 
+- LifeCycle api 
 
 사용 가능해짐.
 
@@ -37,4 +37,22 @@ class ClassComp extends React.Component {
 }
 ```
 
+## state
+class - props
+function - useState
+
+## Lifecycle API
+class - componentWillMount 이런 기본 함수
+function - useEffect / 여러개 설치 
+``` react.js
+//side effect
+  useEffect(function () {
+    console.log(
+      "%cfunc => useEffect {componentDidMount & componentDidUpdate} " +
+        ++funcId,
+      funStyle
+    );
+    document.title = number + " : " + date;
+  });
+```
 
