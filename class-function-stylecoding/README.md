@@ -38,12 +38,12 @@ class ClassComp extends React.Component {
 ```
 
 ## state
-class - props
-function - useState
+- class - props
+- function - useState
 
 ## Lifecycle API
-class - componentWillMount 이런 기본 함수
-function - useEffect / 여러개 설치 
+- class - componentWillMount 이런 기본 함수
+- function - useEffect / 여러개 설치 
 ``` react.js
 //side effect
   useEffect(function () {
