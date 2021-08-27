@@ -9,6 +9,7 @@ React Study - 이것저것
 #### 6) 함수형 개발방식 - 인프런 강의 https://www.inflearn.com/course/react-class-function-%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9#curriculum
 #### 7) 심화 게임 개발 - 인프런 강의 https://www.inflearn.com/course/web-game-react#curriculum
 
+#### +) 아토믹 디자인 방법론 https://ui.toast.com/weekly-pick/ko_20200213
 <br><Br>
 
 
