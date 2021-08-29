@@ -95,3 +95,32 @@ const ShowName = (props) => {
 
 -> 이벤트 핸들러가 되는 함수를 준비하여 전달해야함.
 
+
+
+### 생명주기 life cycle
+
+- Mount 계열
+- Update 계열
+- Unmount 계열
+
+![](C:\cheon\coding\react\React_study\8.react-style-guide\react-life-cycle-2.png)
+
+#### componentWillMount
+
+Dom 트리에 추가되기 직전에 한번만 실행되는 메서드 
+
+초기화 처리등에 사용
+
+서버 사이트 렌더링 실행 시에도 호출되는 메서드
+
+
+
+
+
+#### componentDidMount
+
+처음에 render 실행된 직후에 실행되는 메서드
+
+요소에 관계된 초기화 처리 등을 수행
+
+componentWillMount와 달리 서버 사이트 렌더링 시에는 실행되지 않음
