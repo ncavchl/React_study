@@ -103,7 +103,8 @@ const ShowName = (props) => {
 - Update 계열
 - Unmount 계열
 
-![](C:\cheon\coding\react\React_study\8.react-style-guide\react-life-cycle-2.png)
+![react-life-cycle-2](https://user-images.githubusercontent.com/48319693/131239815-b286da93-ab9c-4ae7-9e37-00ff603b3fa7.png)
+
 
 #### componentWillMount
 
