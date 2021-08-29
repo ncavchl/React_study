@@ -3,7 +3,7 @@ React Study - 이것저것
 
 #### 1) 노마드코더 - 영화 웹 애플리케이션  https://nomadcoders.co/react-fundamentals/lectures/1540  // https://github.com/ncavchl/React-express_inflearn
 #### 2) 생활코딩 - 리액트 https://opentutorials.org/module/4058/24666
-#### 3) 생활코딩 - Redux (상태관리) https://cody-ims.autoever.com/projects/SMARTWP/issues/SMARTWP-180?filter=addedrecently
+#### 3) 생활코딩 - Redux (상태관리) https://opentutorials.org/module/4078
 #### 4) 기술블로그 - Redux-saga (상태관리 + middleware) https://uzihoon.com/post/181be130-63a7-11ea-a51b-d348fee141c4
 #### 5) 기본 개념 - 인프런 강의 https://www.inflearn.com/course/react-velopert/dashboard
 #### 6) 함수형 개발방식 - 인프런 강의 https://www.inflearn.com/course/react-class-function-%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9#curriculum
@@ -30,7 +30,7 @@ https://opentutorials.org/module/4058/24666
 <br><br>
 
 3) 생활코딩 - Redux (상태관리)<br>
-https://cody-ims.autoever.com/projects/SMARTWP/issues/SMARTWP-180?filter=addedrecently
+  https://opentutorials.org/module/4078
 
 - UNDO  REDO 쉽게 할 수 있음 - 원본을 복제한 데이터로 활용 / 상태변화가 서로에게 영향주지 않음 / 독립됨
 
