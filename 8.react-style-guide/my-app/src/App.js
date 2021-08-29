@@ -7,12 +7,12 @@ import Clicktest from './component/Clicktest';
 function App() {
   return (
     <div className="App">
-      
+{/*       
       <ShowName>
         <Taro></Taro>
       </ShowName>
       <ShowName children={<Taro></Taro>}/>
-      <Clicktest/>
+      <Clicktest/> */}
     </div>
   );
 }

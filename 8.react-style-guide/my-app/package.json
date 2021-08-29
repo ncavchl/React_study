@@ -15,7 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "webpack": "webpack src/module.js --mode development --output public/bundle.js"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +35,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "webpack": "4.44.2",
+    "webpack-cli": "^4.8.0"
   }
 }
