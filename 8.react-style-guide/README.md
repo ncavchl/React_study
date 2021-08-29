@@ -40,6 +40,20 @@ npm install --save-dev @babel/cli @babel/preset-env
 
 
 
+
+
+### Props - State
+
+Props - 전달받은 값으로 컴포넌트는 이를 활용할 뿐, 변하지 않느 객체
+
+State - 컴포넌트 자체로 가짐, 변경 가능한 객체 
+
+- React.Component를 상속하는 클랙스에서만 사용 가능
+- Stateless Functional Components - SFC
+- Functional Components 에선 사용 불가 --> <b>useState Hook으로 사용 가능</b>
+
+
+
 ### Props.children
 
 컴포넌트의 요소로 컴포넌트를 전달할 수 있다. 
@@ -68,4 +82,16 @@ const ShowName = (props) => {
 ```
 
 
+
+### Event
+
+```react
+<button onClick={alert('button click')}>
+    Error - 읽어들일 때 함수가 한 번 실행됨</button>
+<button onClick={this.handleClick}>Button</button>
+```
+
+함수를 실행하는 작성 방식이라면 최초 렌더링시 바로 실행됨 
+
+-> 이벤트 핸들러가 되는 함수를 준비하여 전달해야함.
 
