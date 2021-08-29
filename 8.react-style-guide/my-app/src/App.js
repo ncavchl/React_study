@@ -6,8 +6,8 @@ import ShowName from './component/ShowName';
 function App() {
   return (
     <div className="App">
+      
       <ShowName>
-        <Taro></Taro>
         <Taro></Taro>
       </ShowName>
       <ShowName children={<Taro></Taro>}/>

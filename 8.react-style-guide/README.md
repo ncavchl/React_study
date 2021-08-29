@@ -26,3 +26,46 @@ npm start
 - --save-dev : 개발 작업에 이용되는 패키지, babel이나 jest 등 빌드 작업이나 품질 향상을 위해 이용하는 라이브러리 
 - -- global : 프로젝트 전체에 걸쳐 이용할 수 있도록 실행 환경을 설치, create-react-app등 패키지에서 제공하는 고유의 명령을 사용하고자 할 때
 
+
+
+
+
+### Babel
+
+설정한 js 버전으로 트랜스파일 해주는 도구 
+
+```
+npm install --save-dev @babel/cli @babel/preset-env
+```
+
+
+
+### Props.children
+
+컴포넌트의 요소로 컴포넌트를 전달할 수 있다. 
+
+```react
+const ShowName = (props) => {
+    return (
+        <div>
+            <hr/>
+            {props.children}
+        </div>
+    )
+}
+```
+
+
+
+```react
+{/* First */}
+<ShowName>
+   <Taro></Taro>
+</ShowName>
+
+{/* Second */}
+<ShowName children={<Taro></Taro>}/>
+```
+
+
+
