@@ -1,7 +1,7 @@
 # React_study
 React Study - 이것저것
 
-#### 1) 노마드코더 - 영화 웹 애플리케이션  https://nomadcoders.co/react-fundamentals/lectures/1540 
+#### 1) 노마드코더 - 영화 웹 애플리케이션  https://nomadcoders.co/react-fundamentals/lectures/1540  // https://github.com/ncavchl/React-express_inflearn
 #### 2) 생활코딩 - 리액트 https://opentutorials.org/module/4058/24666
 #### 3) 생활코딩 - Redux (상태관리) https://cody-ims.autoever.com/projects/SMARTWP/issues/SMARTWP-180?filter=addedrecently
 #### 4) 기술블로그 - Redux-saga (상태관리 + middleware) https://uzihoon.com/post/181be130-63a7-11ea-a51b-d348fee141c4
@@ -10,6 +10,7 @@ React Study - 이것저것
 #### 7) 심화 게임 개발 - 인프런 강의 https://www.inflearn.com/course/web-game-react#curriculum
 #### 8) 리액트 스타일 가이드 필기 - 도서  http://www.yes24.com/Product/Goods/72264715
 
+<br>
 #### +) 아토믹 디자인 방법론 https://ui.toast.com/weekly-pick/ko_20200213
 
 
