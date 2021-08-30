@@ -246,3 +246,11 @@ watch 모드 - 소스코드 수정시 자동으로 다시 build
 
 #### 컴포넌트 상태 관리
 Flux - MVC에서의 model,view,controller 3자가 빙글빙글 반복하여 모두가 한 방향으로 흘러가는 구조 (설계 패턴)
+
+### redux
+https://redux.js.org/
+Flux를 기반으로 한 단일 방향 데이터 흐름으로 상태를 관리하는 구현을 위한 라이브러리
+3원칙
+- single source of truth : 모든 상태가 단일 객체에 있음. -> 디버깅, 테스트 쉬워짐
+- State is read-only : state 변경은 반드시 action 을 사용하여 간접적으로 수행해야 함.
+- Changes are made with pure functions : reducer는 입력으로 출력이 결정되는 단순한 함수로서 구현해야 함.
