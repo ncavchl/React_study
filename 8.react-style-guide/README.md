@@ -254,3 +254,18 @@ Flux를 기반으로 한 단일 방향 데이터 흐름으로 상태를 관리�
 - single source of truth : 모든 상태가 단일 객체에 있음. -> 디버깅, 테스트 쉬워짐
 - State is read-only : state 변경은 반드시 action 을 사용하여 간접적으로 수행해야 함.
 - Changes are made with pure functions : reducer는 입력으로 출력이 결정되는 단순한 함수로서 구현해야 함.
+
+
+### 품질유지
+소프트웨어 품질
+- 사양 만족? 버그 없나
+- 성능 performance
+- 접근성 accessibility
+- 확장성 scalability
+- 유지 보수성
+- 문서화 documentation
+
+소스코드 품질
+- 가독성
+- 소스 코드 변경의 편의성
+- 테스트할 수 있는가?
