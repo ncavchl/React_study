@@ -77,7 +77,13 @@ https://opentutorials.org/module/4058/24666
 <img src="https://github.com/ncavchl/React_study/blob/main/Redux/redux%20loadmap.png?raw=true" alt="" title="">
 
 <br><br>
+reducer - state데이터의 수정방법을 미리 정의하는 함수, 초기값 
+combineReducers - 여러 reducer 
+dispatch - reducer함수 동작
 
+  
+  
+  
 4)  생활코딩 - React Redux<br>
 https://opentutorials.org/module/4518
 
